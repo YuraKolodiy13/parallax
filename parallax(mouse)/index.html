@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Parallax</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="parallax">
+		<div class="bg1 parallax-layer"></div> <!--не працює з бемом (двойне підкреслення)-->
+		<div class="bg2 parallax-layer"></div>
+	</div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis distinctio maiores praesentium qui quisquam sequi similique tempore voluptatem. Dolorem ducimus eius error id ipsa ipsum odio voluptatem. Ad, architecto atque consectetur corporis cupiditate eius exercitationem id illo impedit laboriosam quasi repellat repellendus sequi temporibus totam. Aliquam at consequatur ducimus eius eos explicabo impedit inventore libero odit. Amet animi at atque blanditiis dolores excepturi illo ipsa iusto nemo odit officiis omnis, pariatur perspiciatis ratione sapiente sint vel veniam voluptate! Inventore maxime quae reiciendis sunt voluptate! Accusamus asperiores assumenda deleniti fuga id illo ipsa iste optio quos velit! A fugiat molestias voluptatem?</p>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="js/jquery.parallax.min.js"></script>
+	<script src="js/jquery.event.frame.js"></script>
+	<script>
+        $(function(){
+            $('.parallax .parallax-layer').parallax({
+                mouseport: $('.parallax')
+			});
+        });
+	</script>
+
+</body>
+</html>

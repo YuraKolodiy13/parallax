@@ -1,0 +1,20 @@
+body{
+    background-color: #040404;
+}
+.content{
+    margin-top: 150px;
+}
+.content__title{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.content__phone{
+    background: fixed url("img/1.jpg") no-repeat center top;
+    height: 450px;
+    width: 450px;
+    box-shadow: inset 0 0 100px #ddd;
+    border-radius: 50%;
+    margin: auto;
+}

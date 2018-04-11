@@ -1,0 +1,47 @@
+body{
+    background: url(img/bg.png);
+    color: #fff;
+    font: 15px/22px "Lora", sans-serif;
+}
+.content{
+    max-width: 1170px;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.content__item{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px #000;
+}
+.content__link{
+    border: 3px solid #fff;
+    display: block;
+    overflow: hidden;
+    background-color: #fff;
+}
+.content__link:hover img{
+    opacity: 1;
+    transform: scale(1);
+}
+.content__link:hover + .content__title{
+    transform:  translateX(10%) rotate(-90deg);
+    opacity: 0;
+}
+.content__link img{
+    display: block;
+    opacity: .7;
+    transition: .5s;
+    transform: scale(1.2);
+}
+.content__title{
+    margin: 0;
+    position: absolute;
+    transform: rotate(-90deg);
+    transition: .5s;
+    font-size: 30px;
+    transform-origin: 0 0 0;
+    left: 85%;
+    top: 90%;
+    width: 100%;
+}

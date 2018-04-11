@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+section{
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section h4{
+    font-size: 40px;
+    color: gold;
+    text-shadow: 5px 5px 5px #000;
+}
+.section-1{
+    background: url("https://www.inheadline.com/inheadline/public/assets/uploads/news_upload/01BookTalkK2.jpg") no-repeat center top;
+    background-size: cover;
+}
+.section-2{
+    background: url("http://marinakhlybova.com/storage/cache/images/000/427/IMG-0096,xlarge.1473855570.jpg") no-repeat center top;
+    background-size: cover;
+}
+.section-3{
+    background: url("http://thekievtimes.ua/uploads/posts/2013-03/1363460624_superbnaturecorner2560x1440wallpaper6773.jpg") no-repeat center top;
+    background-size: cover;
+}
