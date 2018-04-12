@@ -149,12 +149,21 @@
 <script>
     $(window).scroll(function () {
         var wScroll = $(this).scrollTop();
-        $('.gallery .gallery__item').each(function () {
-            if(wScroll + 700 > $(this).offset().top){
+        var gallary = $('.gallery');
+
+        gallary.each(function () {
+            if(wScroll + 600 > gallary.offset().top && !gallary.hasClass('isShow')){
+                gallary.addClass('isShow');
                 $('.gallery .gallery__item').each(function (i, el) {
                     setTimeout(function () {
                         $(el).addClass('show');
                     }, i * 200)
+                })
+            }
+            if(wScroll + 600 < gallary.offset().top && gallary.hasClass('isShow')){
+                gallary.removeClass('isShow');
+                $('.gallery .gallery__item').each(function (i, el) {
+                    $(el).removeClass('show');
                 })
             }
         })
