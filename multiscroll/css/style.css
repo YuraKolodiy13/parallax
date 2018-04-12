@@ -1,0 +1,17 @@
+.ms-left .ms-section{
+    background-color: yellow;
+}
+.ms-left .ms-section:nth-child(odd){
+    background-color: chartreuse;
+}
+#multiscroll{
+    color: red;
+    text-align: center;
+}
+
+.coffee{
+    background: darkred url("../img/coffee.png") no-repeat right 70%;
+}
+.moon{
+    background: #000 url("../img/moon.jpg") no-repeat right;
+}

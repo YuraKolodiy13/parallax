@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/jquery.multiscroll.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="multiscroll">
+    <div class="ms-left">
+        <div class="ms-section">Some section</div>
+        <div class="ms-section">Some section</div>
+        <div class="ms-section">Some section</div>
+    </div>
+    <div class="ms-right">
+        <div class="ms-section coffee"></div>
+        <div class="ms-section moon"></div>
+        <div class="ms-section">
+            <img src="img/tiger.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.easings.min.js"></script>
+<script type="text/javascript" src="js/jquery.multiscroll.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#multiscroll').multiscroll({
+                sectionsColor: ['#8c0319', '#000', '#000'],
+                navigation: true
+            });
+        });
+    </script>
+1629.7
+</body>
+</html>
