@@ -11,7 +11,17 @@
 
 .coffee{
     background: darkred url("../img/coffee.png") no-repeat right 70%;
+    background-size: 100%;
 }
 .moon{
-    background: #000 url("../img/moon.jpg") no-repeat right;
+    background: url("../img/moon.jpg") no-repeat right;
+    background-size: 100%;
+}
+.tiger{
+    background: url("../img/tiger.jpg") no-repeat right;
+    background-size: 100%;
+}
+.ms-right{
+    right: -1px !important;
+    width: 51% !important;
 }
