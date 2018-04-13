@@ -1,0 +1,16 @@
+.content{
+    text-align: center;
+}
+.content__title{
+    margin-bottom: 50px;
+}
+.content__img{
+    border: 5px solid #ddd;
+    width: 500px;
+    margin: 0 auto 50px auto;
+    opacity: 0;
+    transition: 1s;
+}
+.content__img img{
+    display: block;
+}
